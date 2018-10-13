@@ -1,8 +1,8 @@
 # Linux命令
 
 ## 用户相关
-> groups查看当前登录用户的组内成员
-> groups username查看`username`用户所在组，及组内成员
+> groups查看当前登录用户的组内成员;
+> groups username查看`username`用户所在组，及组内成员;
 > whoami查看当前登录的用户名
 ```
 附：
