@@ -1,5 +1,7 @@
 # 傻瓜包模式
 
+[一键安装](https://lnmp.org/install.html)
+
 # 分步安装
 
 `PS: 省略Linux部分`
