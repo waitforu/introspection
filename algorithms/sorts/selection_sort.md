@@ -1,6 +1,6 @@
+# 选择排序
 ### SortInterface.php
-```
-<?php
+```php
 
 namespace common\algorithms\sorts;
 
@@ -13,8 +13,7 @@ interface SortInterface{
 }
 ```
 ### SortSwap.php
-```
-<?php
+```php
 
 namespace common\algorithms\sorts;
 
@@ -28,8 +27,7 @@ class SortSwap{
 }
 ```
 ### SelectionSort.php
-```
-<?php
+```php
 namespace common\algorithms\sorts;
 
 class SelectionSort extends SortSwap implements SortInterface{
@@ -40,7 +38,7 @@ class SelectionSort extends SortSwap implements SortInterface{
     {
         $len = count($this->array);
         // echo microtime().'<br/>';
-        for($i = 0; $i < $len - 1; $i++){
+        for($i = 0; $i < $len; $i++){
             $min = $i;
             for($j = $i+1; $j < $len; $j++){
                 if($this->array[$min] > $this->array[$j]){

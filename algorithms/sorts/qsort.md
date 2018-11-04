@@ -1,6 +1,6 @@
+# 快速排序
 ### SortInterface.php
-```
-<?php
+```php
 
 namespace common\algorithms\sorts;
 
@@ -13,8 +13,7 @@ interface SortInterface{
 }
 ```
 ### QSort.php
-```
-<?php
+```php
 namespace common\algorithms\sorts;
 
 class QSort implements SortInterface{
